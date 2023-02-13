@@ -1,0 +1,32 @@
+1 Clensers
+	1.1 Brightening Gel Face Wash
+	1.2 Depigmentation Gel Face Wash
+	1.3 Brightening Foaming Face Wash
+	1.4 Depigmentation Foaming Face Wash
+	1.5 Refreshing Body wash
+
+2 Serums
+	2.1 Vitamin C Brightening Face serum
+	2.2 Niacinamide Depigmentation Face serum
+	2.3 Hair Growth Scalp Serum
+	2.4 Exfoliating Face Serum
+
+3 creams
+	3.1 Moisturising Day Face Cream
+	3.2 Kumkumadi Night Face Cream
+	3.3 Moisturising Body Cream
+	3.4 Healing Foot Cream
+	
+4 oils
+	4.1 Onion Scalp oil
+	4.2 Herbal Hair oil
+	4.3 Kumkumadi Face Oil
+	4.4 Nourishing Body Oil
+
+5 Hair Care
+	5.1 Alovera Shampoo
+	5.2 Moisturising Shampoo
+	5.3 Detoxifying Shampoo
+	5.4 Hair Conditioner
+	 
+

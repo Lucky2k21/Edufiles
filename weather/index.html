@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Temperature Hot</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        body {
+            background: url(bg-image.jpg) no-repeat;
+            background-size: cover;
+            height: 100vh;
+        }
+        #form{
+		align-items:center;
+		padding-left:180px;
+		}
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <form class="col-md-6    " >
+            <div class="input-group m-5" id="form">
+                <select class="nav-link text-dark  bg-light" id="city-nname">
+                <option value="" style="color: black ;" >Enter a location for Weather ...</option>
+                <option value="Kolar" style="color: black ;">Kolar</option>
+		<option value="Bengaluru" style="color: black ;">Bengaluru</option>
+            </select>
+
+                <div class="input-group-append">
+                    <button onclick="searchTemperature()" type="button" class="btn btn-dark">Search</button>
+                </div>
+            </div>
+        </form>
+        <div class="weather-status text-white text-center">
+            <img id="image-icon" src="https://openweathermap.org/img/wn/02d@2x.png" alt="">
+            <h1 id="city">Kolar</h1>
+            <h3><span id="temp">36.06</span>&deg;C</h3>
+            <h1 class="lead" id="weather">Clouds</h1>
+        </div>
+    </div>
+<script src="script.js "></script>
+</body>
+
+</html>
